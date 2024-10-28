@@ -22,7 +22,7 @@ jobs:
 
       - name: Bump version and push tag
         id: tagging
-        uses: anothrNick/github-tag-action@master
+        uses: anothrNick/github-tag-action@1.26.0
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_ORG_REPO_TAG }}
           DEFAULT_BUMP: patch
