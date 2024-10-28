@@ -35,5 +35,5 @@ jobs:
           push: true
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
-          repository: osodevops/strimzi-connect-all-in-one
+          repository: sionsmith/strimzi-connect-all-in-one
           tags: ${{ steps.tagging.outputs.new_tag }}
